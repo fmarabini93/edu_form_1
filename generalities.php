@@ -12,7 +12,7 @@
             <title>Generalities</title>
       </head>
       <body>
-            <?php 
+            <?php
                   include "components/header.php";
                   include "components/jumbotron.php";
             ?>
@@ -22,7 +22,7 @@
                         <div class="row justify-content-center">
                               <div class="col-lg-12 fb col-md-10 col-sm-10 col-11">
                                     <div class="form-back">
-                                          <div class="form-heading pt-4">
+                                          <div class="form-heading pt-4 pb-4">
                                                 <h1>
                                                       Inserisci i tuoi dati e invia la tua <br> candidatura! 🎓
                                                 </h1>
