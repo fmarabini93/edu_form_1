@@ -1,0 +1,85 @@
+/* Jumbotron */
+.under19back {
+      background-color: #30284e;
+      height: 300px;
+      border-radius: 15px;
+}
+
+.under19-text {
+      color: white;
+}
+.under19-text h3 {
+      color: #3fad5c;
+}
+
+.listing {
+      position: relative;
+      /* cursor: pointer; */
+}
+
+.line-text {
+      margin-top: 15px;
+      color: white;
+      font-size: 14px;
+}
+
+.line {
+      height: 2px;
+      background-color: white;
+      width: 68%;
+      position: absolute;
+      top: 14px;
+      left: 104px;
+}
+
+.steps {
+      position: relative;
+}
+
+.circle {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      border: 4px solid white;
+      background-color: #30284e;
+      display: inline-block;
+      position: relative;
+      vertical-align: top;
+      left: 56px;
+      top: -1px;
+}
+
+.active::after {
+      content: "";
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      background-color: white;
+      top: 3.9px;
+      left: 61px;
+      border-radius: 50%;
+      z-index: 1;
+}
+/* --Jumbotron */
+
+/* Form */
+.form-back {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 15px;
+      background: white;
+      margin-top: -50px;
+      padding-left: 50px;
+}
+
+label {
+      color: #3fad5c;
+}
+
+.customcheckboxContainer p {
+      color: #30284e;
+}
+.customcheckboxContainer p a {
+      font-weight: bold;
+      color: #30284e;
+}
+/* --Form */
